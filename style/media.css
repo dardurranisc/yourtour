@@ -1,0 +1,534 @@
+@media (max-width:1250px){
+	/* Общии */
+	.container{
+	    max-width:920px;
+	}
+	/* HEADER */
+	.menu__list {
+    	gap: 0px 30px;
+	}
+	.header__text {
+    	max-width:60%;
+	}
+	/* секция -- > Выбери свой тур */
+	.choice__articles {
+    	justify-content: flex-start;
+    }
+    .choice__articles {
+    	gap: 20px;
+	}
+	.choice__item{
+		max-width: 293px;
+	}
+	.choice__specification .choice__title {
+	    line-height: 40px;
+	    font-size: 30px;
+	}
+	/* секция -- > Фотографии путешествий */
+	.gallery__block {
+	    gap: 20px;
+	}
+	.gallery_blocks {
+    	padding: 0px 20px;
+	}
+	/* секция -- > Создай свой тур */
+	.create__condition {
+    	gap: 11px;
+	}
+	 /* секция -- > Отзывы наших путешественников */
+	.reviews__block {
+    	gap: 18px;
+	}
+	.reviews__text {
+    	line-height: 28px;
+	}
+	/* секция -- > Футер */
+	.footer__link {
+    	display: flex;
+    	gap: 10px;
+	}
+}
+
+@media (max-width: 1024px) {
+	/* Общии */
+	.container {
+        max-width: 100%;
+        padding: 0px 53px;
+    }
+    .header .container{
+    	padding: 0px 57px;
+    }
+    #travel_gallery .container{
+		padding: 0px;
+	}
+    /* секция -- > Выбери свой тур */
+    .choice__specification .choice__title {
+        line-height: 43px;
+     	font-size: 35px;
+    }
+    .choice__item {
+        max-width: 48.9%;
+    }
+    .choice__articles {
+        gap: 18px;
+    }
+    .choice__image,
+    .choice__specification{
+    	max-width: 100%;
+    	max-height: 100%;
+    }
+    .gallery__block {
+    	height: 301px;
+	}
+    .create__form {
+	    padding: 60px;
+	}
+    .choice__articles {
+    	justify-content: center;
+	}
+	/* секция -- > Собери свой тур */
+	.create__block {
+    	gap: 20px;
+	}
+	.create-select {
+    	background-position: 94% 50%;
+	}
+	/* секция -- > Фотографии путешествий */
+	.gallery_blocks .gallery__block:nth-child(1) .gallery__item:nth-child(2),
+	.gallery_blocks .gallery__block:nth-child(2) .gallery__item:nth-child(3),
+	.gallery_blocks .gallery__block:nth-child(3) .gallery__item:nth-child(4){
+		display:none;
+	}
+
+
+}
+
+@media (max-width: 920px) {
+	/* HEADER */
+	.menu{
+		display:none;
+	}
+	/* секция -- > Выбери свой тур */
+	 .choice__item {
+        max-width: 48%;
+    }
+    /* секция -- > Фотографии путешествий */
+	.gallery_blocks .gallery__block:nth-child(1) .gallery__item:nth-child(3),
+	.gallery_blocks .gallery__block:nth-child(3) .gallery__item:nth-child(3),
+	.gallery_blocks .gallery__block:nth-child(2) .gallery__item:nth-child(2){
+		display:none;
+	}
+}
+@media (max-width: 767px) {
+	/* Общии */
+	.container {
+    	padding: 0px 21px;
+    }
+    h3{
+    	font-weight:700;
+    }
+	section {
+    	padding-top:75px;
+	}
+	.description{
+		max-width:100%;
+	 	line-height: 23px;
+	}
+    h2,
+    .header__title,
+    .choice__main .choice__title{
+    	width: 100%;
+ 		line-height: 38px;
+	 	letter-spacing: 0.02em;
+     	font-size:34px;
+    }
+ 	.header__title{
+ 		max-width: 50%;
+		letter-spacing: 0.02em;
+        line-height: 41px;
+ 	}
+ 	body,
+ 	.choice__link,
+ 	.p-small,
+ 	.p-big,
+ 	.create__input{
+ 		font-size:16px;
+ 	}
+	.description {
+        margin-top:20px;
+    }
+    #create-tour .description {
+        margin-top:20px;
+    }
+	.choice__image,
+	.choice__item,
+	.create__form,
+	.reviews__column,
+	.gallery__photo,
+	.story__item,
+	.travelling__image{
+		border-radius:20px;
+	}
+	.choice__main,
+	.create__main,
+	.reviews__main,
+	.gallery__main,
+	.story__main{
+	  margin-bottom:50px;
+	}
+ 	/* HEADER */
+ 	.header__logo{
+	    max-width: 133px;
+ 	}
+ 	.header__inner {
+    	padding: 33px 0px;
+	}
+    .header__title {
+        line-height: 38px;
+    }
+ 	.header .container {
+        padding: 0px 20px;
+    }
+ 	.header__text {
+ 		max-width: 310px;
+	    line-height: 22px;
+	}
+	.header__main {
+    	gap: 40px;
+	}
+	/* секция -- > Выбери свой тур */
+	.choice__link:after {
+    	bottom: 0px;
+	}
+    .choice__articles {
+        flex-direction: column;
+        align-items: center;
+    }
+    .choice__item {
+       	max-width: 100%;
+        max-height: 318px;
+    }
+    .choice__block {
+		padding: 25px;
+	}
+    .choice__specification .choice__title {
+        line-height: 22px;
+     	font-size: 23px;
+    }
+    .choice__price {
+    	font-size: 16px;
+	}
+    .choice__specification {
+        gap: 13px;
+    }
+    .choice__btn {
+        font-size:16px;
+    	width: 160px;
+    }
+	.choice__main {
+    	align-items: center;
+	}
+    .choice__list {
+    	flex-wrap: wrap;
+    	max-width: 281px;
+    }
+    /* секция -- > Создай свой тур */
+	.create__main{
+	 	margin-bottom: 40px;
+	 }
+	.create__form {
+	 	gap: 30px;
+	    padding:20px 20px 40px 20px;
+        border-radius: 30px;
+	}
+	.create__item, .create__label{
+		width:auto;
+	}
+	.create__checkbox {
+    	border-radius: 4px;
+	}
+	.create__input {
+    	height: 43px;
+	    padding: 10px;
+	}
+	.create__search,
+	.create__reset {
+   		min-width:0%;
+	    padding: 12px 30px;
+        font-size: 16px;
+	}
+	.create__age {
+    	gap: 9.5px;
+	}
+	.create__checkbox:after{
+		top: 5px;
+		left: 5px;
+        width: 9px;
+        height: 5px;
+	}
+	.create__span,
+	.create__checkbox,
+	.create__checkbox:after{
+		max-width: 20px;
+		max-height: 20px;
+	}
+	.create-select{
+		height:46px;
+	}
+	.create__labels .create__span:after {
+	    width:10px;
+	    height: 9.5px;
+	}
+	.create__button,
+	.create__condition{
+		gap:10px;
+	}
+	.create__radios{
+	    gap: 30px;
+	}
+	.create__condition span {
+	    line-height: 22px;
+	    font-size: 16px;
+	}
+	.create__block {
+    	flex-direction: column;
+        gap: 30px;
+	}
+	.create-select {
+        background-position: 95% 50%;
+        background-size: 18px;
+    }
+	/* секция -- > Отзывы наших путешественников */
+    .reviews__block {
+        gap: 16px;
+    }
+	.reviews__block {
+	    flex-direction: column;
+        align-items: center;
+	}
+	.reviews__column {
+		gap: 40px;
+   	 	width: 100%;
+	    padding: 20px;
+    }
+    .reviews__name {
+    	letter-spacing: 0.04em;
+    	font-size:23px;
+    	font-weight:500;
+	}
+	.reviews__options{
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-end;
+	    gap: 8px;
+	}
+	.reviews__text{
+		margin:0px;
+		line-height: 23px;
+	}
+	.reviews__author {
+		margin:0px;
+	}
+	.reviews__options .reviews__text{
+	    letter-spacing: -0.01em;
+	}
+	/* секция -- > Фотографии путешествий */
+	.gallery__block {
+		gap:10px;
+        height:100%;
+        min-height: 110px;
+    }
+    .gallery__photo {
+        width: 100%;
+        height: 100%;
+    }
+    .gallery_blocks .gallery__block:nth-child(2) .gallery__item,
+    .gallery__item{
+    	max-width: 100%;
+    	max-height:110px;
+    }
+    .gallery__main{
+	    padding: 0px 20px;
+    }
+    .gallery_blocks{
+	    gap: 18px;
+	    align-items: center;
+    }
+    .gallery_block{
+    	gap:10px;
+    }
+    /* секция -- > Истории путешествий */
+	.choice__list {
+		gap:10px;
+	    margin-top:27px;
+	}
+	.story__block {
+    	padding: 30px;
+	}
+	.story__blocks {
+   		gap: 20px;
+	}
+	.story__name {
+        margin-bottom: 20px;
+        font-size:23px;
+	}
+	.story__text{
+		line-height: 22.72px;
+		font-size: 16px;
+	}
+	.story__options{
+		max-width: 100%;
+	}
+	.story__links{
+		display: none;
+	}
+	.story__item{
+		max-height:455px;
+	}
+	/* секция -- > Пора в путешествие вместе с нами! */
+	.travelling {
+    	padding-bottom: 75px;
+	}
+    .travelling__block {
+        text-align: center;
+        flex-direction:column;
+        gap:30px;
+    }
+	.travelling__image{
+		width: 130px;
+		height: 133px;
+		border-radius: 20px;
+	}
+	.travelling_content{
+	    align-items: center;
+        max-width: 100%;
+	}
+	.travelling__name{
+		max-width: 291px;
+    	line-height:27px;
+		letter-spacing:1px;
+		font-size: 23px;
+	}
+	.travelling__text {
+		padding: 5px;
+        line-height: 22px;
+    }
+    .story__btn{
+    	font-size:16px;
+    }
+    /* секция -- > Footer */
+	.footer{
+		padding: 21px 0px;
+	}
+	.footer__item {
+    	gap: 15px;
+	}
+	.footer__content{
+		flex-direction: column;
+      	gap: 10px;
+	}
+	.footer__text,
+	.footer__item{
+		display: flex;
+		justify-content:center;
+	}
+	.footer__links{
+	    align-items: center;
+	}
+	.footer__links:nth-child(2) .footer__image {
+        margin-right: 0px;
+    }
+}
+@media (max-width: 456px) {
+	.header__title {
+        max-width: 80%;
+    }
+	 /* секция -- > Выбери свой тур */
+     .choice__item {
+       max-width: 318px;
+    }
+	.choice__link {
+		line-height: 22px;
+	}
+    .choice__specification .choice__title {
+       letter-spacing: 0.04em; 
+       line-height: 31px;
+    }
+ 	.choice__articles {
+        gap: 18px;
+    }
+    .choice__list {
+    	margin-top:31px;
+  	}
+	 /* секция -- > Создай свой тур */
+	.create__checkbox{
+		min-width: 20px;
+		min-height: 20px;
+	}
+	.create__labels .create__span:after {
+	    height: 10px;
+	}
+     /* секция -- > Собери свой тур */
+    .create__commenting {
+    	min-height: 132px;
+	}
+	 /* секция -- > Фотографии путешествий */
+	.gallery_blocks {
+    	padding: 0px 19px;
+	}
+	.gallery_blocks .gallery__block:nth-child(2){
+		gap:10px;
+	}
+    /* секция -- > Истории путешествий */
+    .story__name {
+        letter-spacing: 1px;
+    }
+    .story__block {
+    	gap: 20px;
+	}
+	.travelling_content {
+ 		padding:0px;
+	}
+}
+@media (max-width: 360px) {
+	 /* секция -- > Footer */
+    .footer__item {
+        gap: 10px;
+    }
+    .footer__link {
+    	gap: 7px;
+	}
+}
+@media (max-width: 340px) {
+    .create__search, .create__reset {
+        padding: 12px 19px;
+    }
+    .footer__item {
+      	flex-direction:column;
+      	margin-top:7px;
+    }
+}
+@media (max-width:320px) {
+	 /* секция -- > HEADER */
+	.contacts{
+    	display: none;
+	}
+	/* секция -- > Выбери свой тур */
+    .choice__specification .choice__title {
+        font-size: 19px;
+    }
+	 /* секция -- > Создай свой тур */
+	.create__button {
+    	flex-direction: column;
+	}
+	 /* секция -- > Истории путешествий */
+    .story__text {
+        font-size: 14px;
+    }
+	 /* секция -- > FOOTER */
+	.footer__links {
+   		gap: 5px;
+	}
+}
+
+
