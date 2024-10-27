@@ -1,0 +1,56 @@
+*{
+  box-sizing:border-box;
+  word-wrap: break-word;
+}
+*,
+*::after,
+*::before{
+	box-direction:none;
+  text-decoration:none;
+	color:inherit;
+}
+
+body{
+  margin:0px;
+  font-size:20px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+p{
+  margin:0;
+}
+textarea,input{
+  font-size:20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+ul{
+  margin:0px;
+  padding:0px;
+	list-style:none;
+}
+h1,h2{
+  margin:0;
+	font-weight:700;
+}
+h2{
+  text-align:center;
+  line-height: 73.16px;
+  font-size:59px;
+}
+h3{
+  margin:0;
+  font-weight:500;
+}
+section{
+  padding-top:135px;
+	background:#F9F7F4;
+	color:#1B1F2B;;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}

@@ -1,18 +1,4 @@
-/* Спецификации(Общии)*/
-hltm{
-	box-sizing:border-box;
-}
-*{
-  box-sizing:border-box;
-  word-wrap: break-word;
-}
-*,
-*::after,
-*::before{
-	box-direction:none;
-  text-decoration:none;
-	color:inherit;
-}
+/* Шрифта */
 .roboto-light {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -42,51 +28,7 @@ hltm{
   font-weight: 900;
   font-style: normal;
 }
-
-body{
-  margin:0px;
-  font-size:20px;
-	font-family: "Roboto", sans-serif;
-	font-weight: 400;
-}
-p{
-  margin:0;
-}
-textarea,input{
-  font-size:20px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-}
-ul{
-  margin:0px;
-  padding:0px;
-	list-style:none;
-}
-h1,h2{
-  margin:0;
-	font-weight:700;
-}
-h2{
-  text-align:center;
-  line-height: 73.16px;
-  font-size:59px;
-}
-h3{
-  margin:0;
-  font-weight:500;
-}
-section{
-  padding-top:135px;
-	background:#F9F7F4;
-	color:#1B1F2B;;
-}
-button {
-  padding: 0;
-  border: none;
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
-}
+/* Общии(спецификация) */
 .container{
   margin:0 auto;
 	max-width:1170px;
@@ -191,13 +133,13 @@ button,
 .choice__item,
 .choice__link:after,
 .footer__link-name:after{
-  transition:opacity , hover,  200ms ease;
+  transition:all 200ms ease;
 }
 .story__btn,
 .story__item .story__image,
 .choice__btn,
 .choice__item .choice__image{
-  transition:hover , scale , 300ms ease;
+  transition: all 300ms ease;
 }
 .menu__item:hover:after,
 .story__links a:hover:after,
@@ -212,10 +154,6 @@ button,
   opacity:1;
 
 }
-,
-.story__links a:after{
-  background:#fff;
-}
 .menu__item:after{
   background-color:#fff;
 }
@@ -225,6 +163,7 @@ button,
 }
 .story__links a:after{
   bottom:3px;
+  background-color:#fff;
 }
 .travelling__email:after{
   bottom: 2px;
@@ -360,7 +299,6 @@ button,
 .choice__articles{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   gap: 30px;
   color:#fff;
 }
@@ -379,7 +317,6 @@ button,
   width: 100%;
   height: 100%;
   content: '';
-  background: transparent;
   background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
 }
 .choice__block{
@@ -391,14 +328,10 @@ button,
 }
 .choice__specification{
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
   z-index: 2;
   max-width: 240px;
   gap: 18px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .choice__specification .choice__title{
   line-height: 43px;
@@ -429,7 +362,6 @@ button,
   height: 531px;
   object-fit: cover;
   overflow: hidden;
-  transition: 200ms ease;
 }
 /* секция -- > Собери свой тур */
 .reviews__main{
@@ -514,7 +446,6 @@ input[type="date"]{
   display:flex;
   flex-direction:column;
   gap:9px;
-  margin-bottom: 12px;
 }
 .create__radios{
   display: flex;
@@ -589,7 +520,6 @@ input[type="date"]{
   display: flex;
   align-items: flex-start;
   column-gap: 19px;
-  margin-top: -12px;
 }
 .create__condition {
   line-height: 24px;
@@ -721,7 +651,6 @@ input[type="date"]{
 .gallery__photo-small{
   max-width: 349.16px;
   height: 301px;
-  object-fit: cover;
 }
 /* секция -- > История путешествий */
 .story__blocks{
@@ -731,9 +660,6 @@ input[type="date"]{
 }
 .story__item{
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   height: 567px;
   overflow:hidden;
   color:#fff;
@@ -795,9 +721,6 @@ input[type="date"]{
   content: '';
   background: transparent;
   background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%);
-}
-.story__links a:active{
-  color: #EFA501;
 }
 /* секция -- > Пора в путешествие вместе с нами!*/
 .travelling{
