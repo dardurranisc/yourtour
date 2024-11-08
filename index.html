@@ -181,7 +181,7 @@
 	    			<div class="create__block">
 	    				<div class="create__item">
 							<label class="create__label">Имя
-								<input class="create__input" type="text" placeholder="Введите Ваше имя" onkeypress="Hidden(event)" required>
+								<input class="create__input" type="text" placeholder="Введите Ваше имя" onkeypress="validateNameString(event)" required>
 							</label>
 						</div>
 						<div class="create__item">	
@@ -229,7 +229,7 @@
 				                    class="create__labels hide-label"
 				                    name="create__radio"
 				                    value="yes" required>
-				                  <span class="create__span"></span>
+				                  <span class="create__span">
 				                </label>
 	          				</div>
 	          				<div class="create__radio">
@@ -240,7 +240,7 @@
 				                    class="tour__labels hide-label"
 				                    name="create__radio"
 				                    value="no" required>
-				                  <span class="create__span"></span>
+				                  <span class="create__span">
 				                </label>
 	              			</div>
 	            		</div>
@@ -249,12 +249,9 @@
 	  	               <label class="create__condition">
 	  	                 <input type="checkbox" class="create__action" required>
 	  	                 <span class="create__checkbox"></span>
-	  	                 <span
-	  	                   >Нажимая кнопку, я принимаю условия
-	  	                   <a href="#" class="create_link"
-	  	                     >Лицензионного договора</a
-	  	                   ></span
-	  	                 >
+	  	                 <span>Нажимая кнопку, я принимаю условия
+	  	                 	<a href="#" class="create_link">Лицензионного договора</a>
+	  	                 </span>
 	  	               </label>
 	             	</div>
 		          	<div class="create__button">

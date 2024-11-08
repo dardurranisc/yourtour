@@ -21,7 +21,7 @@ window.addEventListener('scroll', e => {
       headerLogo.remove(activeClassLogo)
   }
 })
-function Hidden(event) {
-  if ("1234567890".indexOf(event.key) != -1)
+function validateNameString(event) {
+  if (/\d/.test(event.key))
     event.preventDefault();
 }
